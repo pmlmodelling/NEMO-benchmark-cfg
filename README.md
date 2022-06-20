@@ -1,4 +1,6 @@
-#NEMO-benchmark-cfg
+NEMO-benchmark-cfg
+==================
+
 Set of scripts to facilitate running AMM7 with NEMO4-FABM-ERSEM for benchmarking purposes. There are four elements to the code;
 - XIOS: an I/O library
 - ERSEM: Biogeochemical model code (does not require compilation)
