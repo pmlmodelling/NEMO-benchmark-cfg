@@ -71,6 +71,8 @@
           <field field_ref="O3_pH" operation="average" />
           <field field_ref="O3_pCO2" operation="average" />
           <field field_ref="O3_Om_arg" operation="average" />
+          <field field_ref="total_chlorophyll_calculator_result" operation="average" />
+          <field field_ref="net_primary_production_result" operation="average" />
           <field field_ref="O2_o" operation="average" />
           <field field_ref="P1_Chl" operation="average" />
           <field field_ref="P2_Chl" operation="average" />

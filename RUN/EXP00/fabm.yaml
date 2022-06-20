@@ -1191,5 +1191,13 @@ instances:
     #    model: external_surface_flux
     #    coupling:
     #      target: N4/n
-
-
+  net_primary_production:
+    long_name: net primary production
+    model: weighted_sum
+    parameters:
+      n: 4
+    coupling:
+      term1: P1/netPI
+      term2: P2/netPI
+      term3: P3/netPI
+      term4: P4/netPI

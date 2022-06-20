@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Link files for run
-cp $CODE_DIR/nemo/cfgs/AMM7_FABM_BENCHMARK/EXP00/nemo nemo.exe
+cp $CODE_DIR/nemo/cfgs/AMM7_FABM_BENCHMARK/EXP00/nemo nemo
 cp $CODE_DIR/xios-build/bin/xios_server.exe .
 
 

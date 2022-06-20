@@ -7,7 +7,7 @@ svn checkout http://forge.ipsl.jussieu.fr/ioserver/svn/XIOS/branchs/xios-2.5@202
 
 ERSEM_DIR=$CODE_DIR/ersem
 ERSEM_REV=373b142e531736c1845304cd37c2a6002804e98c
-git clone https://github.com/pmlmodelling/ersem.git@$ERSEM_REV $ERSEM_DIR
+git clone https://github.com/pmlmodelling/ersem.git $ERSEM_DIR
 cd $ERSEM_DIR && git checkout $ERSEM_REV
 
 FABM_DIR=$CODE_DIR/fabm
